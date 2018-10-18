@@ -13,6 +13,11 @@
 		<spring.version>4.3.6.RELEASE</spring.version>
 	</properties>
 	<dependencies>
+		<dependency>
+			<groupId>com.nanowebhub</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<!-- Java ee API -->
 		<dependency>
 			<groupId>javax</groupId>
@@ -20,13 +25,13 @@
 			<version>${javaee.version}</version>
 			<scope>provided</scope>
 		</dependency>
-			<!-- JSTL API -->
+		<!-- JSTL API -->
 		<dependency>
 			<groupId>jstl</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
-		<!-- Spring Jar File for Dependancy   -->
+		<!-- Spring Jar File for Dependancy -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
